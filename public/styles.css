@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #cecece;
+    max-width: 400px;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 54px 55px, rgba(0, 0, 0, 0.1) 0px -12px 30px, rgba(0, 0, 0, 0.1) 0px 4px 6px, rgba(0, 0, 0, 0.1) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+label {
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+button {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#button-col-1, #button-col-2{
+    display: flex;
+}
+
+button:hover {
+    background-color: #3a893e;
+}
+
+#output {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
