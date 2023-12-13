@@ -61,7 +61,8 @@ button {
     transition: 0.3s ease-in-out;
 }
 
-#button-col-1, #button-col-2{
+#button-col-1,
+#button-col-2 {
     display: flex;
 }
 
